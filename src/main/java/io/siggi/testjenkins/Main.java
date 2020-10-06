@@ -5,5 +5,6 @@ public class Main {
 		System.out.println("This is a test!");
 		System.out.println(":o");
 		System.out.println("I like peanut butter cups");
+		System.out.println("I also like chocolate");
 	}
 }
