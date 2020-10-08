@@ -14,6 +14,17 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>siggi-io-releases</id>
+            <url>https://nexus.siggi.io/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>siggi-io-snapshots</id>
+            <url>https://nexus.siggi.io/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
